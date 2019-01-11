@@ -1,0 +1,129 @@
+vi:
+  hello: "xin chào"
+  Ruby_on_Rails_Tutorial_Sample_App: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  title: "têu đề"
+  welcome_to_the_sample_app!: "Chào mừng bạn đến với Ứng Dụng Mẫu!"
+  not_found: "Không tìm thấy!"
+  static_pages:
+    Log_in: "Đăng Nhập"
+    home:
+      home: "Trang Chủ"
+      tutorial_ruby: "hướng dẫn về Ruby on Rails"
+      sample_application: "ứng dụng mẫu"
+      sample_app: "ứng dụng mẫu"
+      This_is_for_the: "Đây là trang chủ cho"
+      welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng Dụng Mẫu"
+    about:
+      About: "giới thiệu"
+      the : ""
+      is_a: "là một"
+      book: "sách"
+      and : "và"
+      screencast_series: "loạt screencast"
+      to_teach_web_development_with: "để dạy phát triển web với"
+      This_is_the_sample_application_for_the_tutorial: "Đây là ứng dụng mẫu cho hướng dẫn"
+      Ruby_on_Rails: "Ruby on Rails"
+    help:
+      Help: "Hỗ Trợ"
+      Get_help_on_the_Ruby_on_Rails_Tutorial_at_the : "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      Rails_Tutorial_help_section : "Phần trợ giúp của Rails Tutorial"
+      To_get_help_on_this_sample_app,_see_the: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+    contact:
+      Contact: "Liên Hệ"
+      Contact_the_at_the: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại"
+      contact_page: "trang liên hệ"
+  users:
+    user_deleted: "Người dùng đã xóa"
+    deleted_failed: "Xoá thất bại"
+    profile_updated: "Hồ sơ cá nhân đã cập nhật"
+    please_log_in: "Xin vui lòng đăng nhập."
+    please_check_your_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    new:
+      Sign_up: "Đăng ký"
+      create_my_account: "Tạo tài khoản của tôi"
+      This_will_be_a_signup_page_for_new_users: "Đây sẽ là trang đăng ký cho người dùng mới"
+    edit:
+      edit_user: "Sửa Người Dùng"
+      update_your_profile: "Cập nhật hồ sơ của bạn"
+      name: "Tên"
+      change: "thay đổi"
+      save_changes: "Lưu thay đổi"
+    form:
+      confirmation: "Xác nhận"
+      password: "Mật khẩu"
+      name: "Tên"
+    index:
+      all_users: "Tất cả người dùng"
+    user:
+      you_sure: "Bạn chắc chắn?"
+      delete: "xóa bỏ"
+  layouts:
+    header:
+      Log_in: "Đăng Nhập"
+      Account: "Tài khoản"
+      Users: "Người dùng"
+      Profile: "Cá Nhân"
+      Settings: "Cài đặt"
+      Log_out: "Đăng Xuất"
+    footer:
+      by: "bởi"
+      New: "Tin Mới"
+      Michael_Hartl: "Michael Hartl"
+  shared:
+    error_messages:
+      the_form_contains: "Biểu mẫu có chứa"
+    user_info:
+      view_my_profile: "xem hồ sơ của tôi"
+      micropost: "micropost"
+    micropost_form:
+      post: "Đăng"
+      compose_new_micropost: "Soạn micropost mới ..."
+      maximum_5MB: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tập tin nhỏ hơn."
+  sessions:
+    not_activated_check_your_email: "Tài khoản chưa được kích hoạt.Kiểm tra email của bạn cho các liên kết kích hoạt."
+    invalid_email_password: "Kết hợp email/mật khẩu không hợp lệ"
+    new:
+      Log_in: "Đăng Nhập"
+      Sign_up_now: "Đăng ký ngay!"
+      New_user: "Tài khoản mới"
+      remember_me: "Hãy nhớ tôi trên máy tính này"
+      password: "Mật khẩu"
+      forgot_password: "(Quên mật khẩu)"
+  account_activations:
+    account_activated: "Tài khoản được kích hoạt!"
+    invalid_activation: "Liên kết kích hoạt không hợp lệ"
+  password_resets:
+    email_sent: "Email được gửi với hướng dẫn đặt lại mật khẩu Email được gửi với hướng dẫn đặt lại mật khẩu"
+    email_not_found: "Không tìm thấy địa chỉ email"
+    new:
+      forgot_password: "Quên mật khẩu"
+      submit: "Gửi"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+  user_mailer:
+    account_activation:
+      account_activation: "Kích hoạt tài khoản"
+      sample_App: "Ứng Dụng Mẫu"
+      hi: "Chào"
+      welcome_to: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+      activate: "Kích Hoạt"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      to_reset: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+      reset_password: "Đặt lại mật khẩu"
+      this_link: "Liên kết này sẽ hết hạn trong hai giờ."
+      if_you_did: "Nếu bạn không yêu cầu đặt lại mật khẩu,
+       vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+  mailers:
+    user_mailer:
+      account_activation: ""
+  microposts:
+    micropost_created: "Micropost đã tạo!"
+    micropost_deleted: "Đã xóa micropost"
+    micropost:
+      posted: "Đăng"
+      ago: "trước đây."
+      you_sure: "Bạn chắc chắn?"
+      delete: "xoá"
+      should_5MB: "nên dưới 5 MB"

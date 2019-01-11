@@ -1,0 +1,11 @@
+user:
+  max_name: 50
+  max_email: 255
+  min_password: 6
+  record_page: 10
+  gravatar_user: 50
+users_helper:
+  size: 80
+micropost:
+  max_content: 140
+  size_gravatar: 50

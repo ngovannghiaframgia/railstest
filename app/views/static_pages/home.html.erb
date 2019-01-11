@@ -1,0 +1,33 @@
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="stats">
+        <%= render "shared/stats" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3>Micropost Feed</h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+
+<% provide :title, t(".home") %>
+
+<div class="center jumbotron">
+  <h1><%= t ".welcome_to_the_sample_app" %></h1>
+  <h2>
+    <%= t ".This_is_for_the" %>
+    <%= link_to  t(".tutorial_ruby"), "http://www.railstutorial.org/" %>
+    <%= t ".sample_application" %>.
+  </h2>
+  <%= link_to t(".Sign_up_now"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<% end %>
